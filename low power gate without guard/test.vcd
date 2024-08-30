@@ -1,0 +1,58 @@
+$date
+Fri Aug 30 07:21:32 2024
+$end
+$version
+Riviera-PRO Version 2023.04.112.8911
+$end
+$timescale
+1 ns
+$end
+
+$scope module evaltb $end
+$var wire 32 ! y [31:0] $end
+$var reg 32 " a [31:0] $end
+$var reg 32 # b [31:0] $end
+$var reg 32 $ in [31:0] $end
+$var reg 1 % sel $end
+
+$scope module va $end
+$var wire 32 & a [31:0] $end
+$var wire 32 ' b [31:0] $end
+$var wire 32 ( in [31:0] $end
+$var wire 1 ) sel $end
+$var wire 32 * sum [31:0] $end
+$var reg 32 + y [31:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b1000000110000001 !
+b1000000010000 "
+b10000000100000 #
+b1000000110000001 $
+0%
+b1000000010000 &
+b10000000100000 '
+b1000000110000001 (
+0)
+b11000000110000 *
+b1000000110000001 +
+$end
+#5
+1%
+1)
+b11000000110000 +
+b11000000110000 !
+#15
+0%
+b10001000010000 "
+b101001100100000 #
+b101001100100000 '
+b10001000010000 &
+0)
+b111010100110000 *
+b1000000110000001 +
+b1000000110000001 !
+#50

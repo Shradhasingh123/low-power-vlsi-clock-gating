@@ -1,0 +1,45 @@
+timestamp=1725016356628
+
+[~A]
+LastVerilogToplevel=evaltb
+ModifyID=1
+Version=74
+design.sv_testbench.sv=0*783*1485
+
+[~MFT]
+0=6|0work.mgf|1485|0
+1=4|1work.mgf|3104|0
+3=8|3work.mgf|2521|0
+
+[$root]
+A/$root=22|||1*0
+BinL64/$root=3*0
+SLP=3*106
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c73a565f2ade592f8ac1c68f484c92163bc1b15fc0202052b1de7c39f16cdaa5
+
+[eval]
+A/eval=22|../design.sv|11|1*1396
+BinL64/eval=3*745
+R=../design.sv|11
+SLP=3*1314
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|1c125f0814e44d7fbbeb4791158c1743fac9f6b475bc650c0a618b0768e9d289
+
+[evaltb]
+A/evaltb=22|../testbench.sv|3|1*3104
+BinL64/evaltb=3*1623
+R=../testbench.sv|3
+SLP=3*2521
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|5e14e1906f5f55d076981976f917276b7bf14e57b90d2d988757ea0a874c2a3b
+
+[latch]
+A/latch=22|../design.sv|2|1*374
+BinL64/latch=3*174
+R=../design.sv|2
+SLP=3*534
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|a22d876ebebee021e55c6f2aa5a4296619748f27818b4f1b8e7a632fed59d8ff
+
+[~U]
+$root=12|0*0|
+eval=12|0*383|
+evaltb=12|0*611||0x10
+latch=12|0*182|

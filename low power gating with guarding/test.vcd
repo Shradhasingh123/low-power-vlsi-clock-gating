@@ -1,0 +1,84 @@
+$date
+Fri Aug 30 07:12:37 2024
+$end
+$version
+Riviera-PRO Version 2023.04.112.8911
+$end
+$timescale
+1 ns
+$end
+
+$scope module evaltb $end
+$var wire 32 ! y [31:0] $end
+$var reg 32 " a [31:0] $end
+$var reg 32 # b [31:0] $end
+$var reg 32 $ in [31:0] $end
+$var reg 1 % sel $end
+
+$scope module va $end
+$var wire 32 & a [31:0] $end
+$var wire 32 ' b [31:0] $end
+$var wire 32 ( in [31:0] $end
+$var wire 1 ) sel $end
+$var wire 32 * l_a [31:0] $end
+$var wire 32 + l_b [31:0] $end
+$var wire 33 , sum [32:0] $end
+$var reg 32 - y [31:0] $end
+
+$scope module l $end
+$var wire 1 ) clk $end
+$var wire 32 & a [31:0] $end
+$var reg 32 . b [31:0] $end
+$upscope $end
+
+
+$scope module m $end
+$var wire 1 ) clk $end
+$var wire 32 ' a [31:0] $end
+$var reg 32 / b [31:0] $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b1000000110000001 !
+b1000000010000 "
+b10000000100000 #
+b1000000110000001 $
+0%
+b1000000010000 &
+b10000000100000 '
+b1000000110000001 (
+0)
+bx *
+bx +
+bx ,
+b1000000110000001 -
+bx .
+bx /
+$end
+#5
+1%
+1)
+bx -
+bx !
+b1000000010000 .
+b10000000100000 /
+b10000000100000 +
+b1000000010000 *
+b11000000110000 ,
+b11000000110000 -
+b11000000110000 !
+#15
+0%
+b10001000010000 "
+b101001100100000 #
+b101001100100000 '
+b10001000010000 &
+0)
+b1000000110000001 -
+b1000000110000001 !
+#50
